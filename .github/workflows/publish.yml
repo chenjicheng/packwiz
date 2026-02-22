@@ -63,6 +63,9 @@ jobs:
           # 复制 server.json（供旧版更新器兼容）
           cp server.json _site/
 
+          # 复制 CNAME（自定义域名配置）
+          cp CNAME _site/
+
           echo "=== 部署内容 ==="
           find _site -type f | head -50
 
