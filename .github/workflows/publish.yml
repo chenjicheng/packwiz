@@ -1,0 +1,79 @@
+# ============================================================
+# GitHub Actions: 自动发布整合包索引到 GitHub Pages
+# ============================================================
+# 触发条件：推送到 main 分支（packwiz 文件或 server.json 有变更时）
+#
+# 流程：
+#   1. 从仓库根目录组装 packwiz 索引 + server.json
+#   2. 部署到 GitHub Pages (update.mc.chenjicheng.cn)
+#
+# 前提：
+#   - 仓库 Settings → Pages → Source 选择 "GitHub Actions"
+#   - DNS: update.mc.chenjicheng.cn CNAME → <username>.github.io
+# ============================================================
+
+name: 发布整合包索引
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pack.toml'
+      - 'index.toml'
+      - 'mods/**'
+      - 'server.json'
+
+  # 允许手动触发（Actions 页面点 "Run workflow"）
+  workflow_dispatch:
+
+# 设置 Pages 部署权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只允许一个部署，跳过排队中的
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      - name: 组装部署内容
+        run: |
+          mkdir -p _site
+
+          # 复制 packwiz 索引文件
+          cp pack.toml _site/
+          cp index.toml _site/
+          if [ -d "mods" ]; then
+            cp -r mods _site/
+          fi
+
+          # 复制 server.json（供旧版更新器兼容）
+          cp server.json _site/
+
+          echo "=== 部署内容 ==="
+          find _site -type f | head -50
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
