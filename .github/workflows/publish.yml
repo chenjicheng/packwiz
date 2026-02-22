@@ -22,6 +22,7 @@ on:
       - 'index.toml'
       - 'mods/**'
       - 'server.json'
+      - 'scripts/rewrite-github-urls.py'
 
   # 允许手动触发（Actions 页面点 "Run workflow"）
   workflow_dispatch:
@@ -68,6 +69,9 @@ jobs:
 
           echo "=== 部署内容 ==="
           find _site -type f | head -50
+
+      - name: 改写 GitHub 下载链接并重算哈希
+        run: python3 scripts/rewrite-github-urls.py --site-dir _site
 
       - name: 配置 Pages
         uses: actions/configure-pages@v5
