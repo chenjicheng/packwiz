@@ -20,7 +20,7 @@ import sys
 
 # ── 默认配置 ──
 DEFAULT_SITE_DIR = "_site"
-DEFAULT_PROXY_PREFIX = "https://gh.cjcx.org/github.com"
+DEFAULT_PROXY_PREFIX = "https://gh.cjcx.org/https://github.com"
 GITHUB_URL_PATTERN = r'(url\s*=\s*")https://github\.com/'
 
 
