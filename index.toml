@@ -116,6 +116,11 @@ hash = "51ff93e279e03cb3cd77a5be0df777cdcd975d35b5149180d9dc724e47168c76"
 metafile = true
 
 [[files]]
+file = "mods/ping-wheel.pw.toml"
+hash = "c1248a05290a25430574bb5429189fd4dfe389bb7489b4b7f03b96094983d9b0"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "ab6def9d98d3f5bf12f78845bdb770a19d5ca590c571e60184e537ffa14dcbee"
 metafile = true
@@ -141,8 +146,8 @@ hash = "3ed900bdfc8331520c122957c64c930a50bd814a722b6367155af675d4bf0e40"
 metafile = true
 
 [[files]]
-file = "mods/syncmatica.pw.toml"
-hash = "2a30c4cf3b1132b219bbf45ce8c4626de461a74f5dd56ada03ae14528a6cbe11"
+file = "mods/syncmatica_r.pw.toml"
+hash = "3c57fda5bffa68e73e4260473f1d82299f702c329a5f1dcf1375c0ce681ae782"
 metafile = true
 
 [[files]]

@@ -1,0 +1,8 @@
+name = "syncmatica_r"
+filename = "syncmatica_r-1.21.11-0.3.27.jar"
+side = "both"
+
+[download]
+url = "https://github.com/RMS-Server/syncmatica_r/releases/download/v0.3.27/syncmatica_r-1.21.11-0.3.27.jar"
+hash-format = "sha256"
+hash = "5be949cf016e0fbf8d46738feaafab1386681afc6c6a90d16a7d5b2edd10652c"
