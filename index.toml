@@ -16,6 +16,11 @@ hash = "fbb61854650a7cdf7eb2244e0599bae2f0541864a9b7cf74f8272972e6bdb18e"
 metafile = true
 
 [[files]]
+file = "mods/chest-count-overlay.pw.toml"
+hash = "6cd48974b11bf72e5412e4c8c648a2e894f28848da22257fb6aed0424cddbeb3"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "a06ef129798265e0d7249426fb0ed5c506725b0460dc3dfdb975b8978480895e"
 metafile = true

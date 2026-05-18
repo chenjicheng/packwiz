@@ -1,0 +1,7 @@
+.git/
+.github/
+scripts/
+CNAME
+server.json
+.packwizignore
+.gitattributes
