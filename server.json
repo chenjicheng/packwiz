@@ -2,16 +2,16 @@
     "pack_url": "https://update.mc.chenjicheng.cn/pack.toml",
 
     "downloads": {
-        "jre_url": "https://gh.cjcx.org/https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_x64_windows_hotspot_21.0.6_7.zip",
-        "pcl2_url": "https://gh.cjcx.org/https://github.com/chenjicheng/upmc/releases/download/tools/PCL2.exe",
+        "jre_url": "https://gh-proxy.com/https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.6%2B7/OpenJDK21U-jre_x64_windows_hotspot_21.0.6_7.zip",
+        "pcl2_url": "https://gh-proxy.com/https://github.com/chenjicheng/upmc/releases/download/tools/PCL2.exe",
         "pcl2_sha256": "6c3aee9f1ca9b58af20cf1324627d345e81036df6c29001c12064487ef6b9ccf",
-        "packwiz_bootstrap_url": "https://gh.cjcx.org/https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar",
+        "packwiz_bootstrap_url": "https://gh-proxy.com/https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar",
         "packwiz_bootstrap_sha256": "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c",
         "fabric_installer_url": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
         "fabric_installer_sha256": "2487a69dd6f9d9c2605265a7142d77c26ab62edc620e6bcf810d581d2ee31b79",
-        "settings_url": "https://gh.cjcx.org/https://github.com/chenjicheng/upmc/releases/download/tools/settings.zip",
+        "settings_url": "https://gh-proxy.com/https://github.com/chenjicheng/upmc/releases/download/tools/settings.zip",
         "settings_sha256": "b4c2d7f3f75dc98aae070f58f8391ff273f732ec5cbb5f0ca5b5565ca7210c57",
-        "updater_url": "https://gh.cjcx.org/https://github.com/chenjicheng/upmc/releases/download/tools/updater.exe",
+        "updater_url": "https://gh-proxy.com/https://github.com/chenjicheng/upmc/releases/download/tools/updater.exe",
         "updater_version": "999.0.0"
     }
 }
