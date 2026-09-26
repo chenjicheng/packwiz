@@ -12,7 +12,7 @@
         "fabric_installer_sha256": "2487a69dd6f9d9c2605265a7142d77c26ab62edc620e6bcf810d581d2ee31b79",
         "settings_url": "https://gh.chenjicheng.cn/https://github.com/chenjicheng/upmc/releases/download/tools/settings.zip",
         "settings_sha256": "b4c2d7f3f75dc98aae070f58f8391ff273f732ec5cbb5f0ca5b5565ca7210c57",
-        "updater_url": "https://gh.chenjicheng.cn/https://github.com/chenjicheng/upmc/releases/download/v0.5.8/updater.exe",
-        "updater_version": "0.5.8"
+        "updater_url": "https://gh.chenjicheng.cn/https://github.com/chenjicheng/upmc/releases/download/v0.5.9/updater.exe",
+        "updater_version": "0.5.9"
     }
 }
