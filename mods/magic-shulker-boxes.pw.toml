@@ -1,0 +1,15 @@
+name = "Magic Shulker Boxes"
+filename = "magic-shulker-boxes-fabric-0.1.0-alpha+mc1.21.11.jar"
+side = "both"
+
+[download]
+url = "https://github.com/chenjicheng/magic-shulker-boxes/releases/download/v0.1.0-alpha/magic-shulker-boxes-fabric-0.1.0-alpha%2Bmc1.21.11.jar"
+hash-format = "sha256"
+hash = "ee5f2b95bc047008c9fc79eb4011376ad24d66743ba2104237cabd2769f7bf5a"
+
+[update]
+[update.github]
+branch = "main"
+regex = "^magic-shulker-boxes-fabric-[0-9]+\\.[0-9]+\\.[0-9]+(?:-[0-9A-Za-z.-]+)?\\+mc1\\.21\\.11\\.jar$"
+slug = "chenjicheng/magic-shulker-boxes"
+tag = "v0.1.0-alpha"
