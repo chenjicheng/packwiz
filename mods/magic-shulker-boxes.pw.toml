@@ -3,7 +3,7 @@ filename = "magic-shulker-boxes-fabric-0.2.0-alpha+mc1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://github.com/chenjicheng/magic-shulker-boxes/releases/download/v0.2.0-alpha/magic-shulker-boxes-fabric-0.2.0-alpha%2Bmc1.21.11.jar"
+url = "https://gh.chenjicheng.cn/https://github.com/chenjicheng/magic-shulker-boxes/releases/download/v0.2.0-alpha/magic-shulker-boxes-fabric-0.2.0-alpha%2Bmc1.21.11.jar"
 hash-format = "sha256"
 hash = "56a7120edcb1602f1862563869a86ddf9e2a37702172db180300f7e8a0b5e26e"
 

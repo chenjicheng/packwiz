@@ -3,7 +3,7 @@ filename = "chest_count_overlay-1.0.1.jar"
 side = "client"
 
 [download]
-url = "https://github.com/chenjicheng/chest-count-overlay/releases/download/v1.0.1/chest_count_overlay-1.0.1.jar"
+url = "https://gh.chenjicheng.cn/https://github.com/chenjicheng/chest-count-overlay/releases/download/v1.0.1/chest_count_overlay-1.0.1.jar"
 hash-format = "sha256"
 hash = "e09fd7737375cf691d3fbf81131c68d971463e40013c2877921c6f6af4b81743"
 

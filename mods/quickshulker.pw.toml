@@ -3,7 +3,7 @@ filename = "quickshulker-3.1.0-1.21.11.jar"
 side = "both"
 
 [download]
-url = "https://github.com/MoRanpcy/quickshulker/releases/download/3.1.0-1.21.11/quickshulker-3.1.0-1.21.11.jar"
+url = "https://gh.chenjicheng.cn/https://github.com/MoRanpcy/quickshulker/releases/download/3.1.0-1.21.11/quickshulker-3.1.0-1.21.11.jar"
 hash-format = "sha256"
 hash = "f04bf1baf8e0f9f20ff4e5dd44562d1ceac4809c36dc139c0c4213b26966cc29"
 

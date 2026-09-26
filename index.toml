@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/chest-count-overlay.pw.toml"
-hash = "6cd48974b11bf72e5412e4c8c648a2e894f28848da22257fb6aed0424cddbeb3"
+hash = "3d2bb8ab4d4c022298ae1f3d560b149fe2ecb06d165c5c42fddb19d5bfc08432"
 metafile = true
 
 [[files]]
@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/magic-shulker-boxes.pw.toml"
-hash = "6ac508d32c1700f98a22f57ab20c443b73f910ba12c7a6ef3f9dcfd5b81664e3"
+hash = "366b8979ec1833d7da2530260cd1f0f88761dc4a49b134fd71af7ab7b0af9f82"
 metafile = true
 
 [[files]]
@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/quickshulker.pw.toml"
-hash = "6df116f6afb8ee109b637c2df547f84c3849d1f204b4ca7a38e4a64b4eb14abe"
+hash = "396161fd8abc8ce7d3eb979dc8338ae59aa1fdb4901b6367442d06e1a7b40f0c"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/syncmatica_r.pw.toml"
-hash = "f43ef6b8ef7a40cf1b08c984e49327b96950f5907747385d0409d8991e21930b"
+hash = "9fd5d7a727dc4f2ab4652397dacd5a6ea5dd2227a48a63aa64940322b7a71817"
 metafile = true
 
 [[files]]
