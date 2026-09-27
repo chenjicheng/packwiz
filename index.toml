@@ -102,7 +102,7 @@ metafile = true
 
 [[files]]
 file = "mods/magic-shulker-boxes.pw.toml"
-hash = "366b8979ec1833d7da2530260cd1f0f88761dc4a49b134fd71af7ab7b0af9f82"
+hash = "2eb85d1966df919b11cbc26b2378f4d5102e3c1e54958cc1b58532bf62713368"
 metafile = true
 
 [[files]]
